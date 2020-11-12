@@ -1,0 +1,8 @@
+class Solution:
+    def removeVowels(self, S: str) -> str:
+        out = ''
+        map = {'a','e','i','o','u'}
+        for i in S:
+            if i not in map:
+                out += i
+        return out
