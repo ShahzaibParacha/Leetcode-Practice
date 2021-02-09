@@ -1,3 +1,4 @@
+'''
 'use strict';
 var findDuplicate = function(nums) {
     var slow = nums[0]
@@ -24,10 +25,11 @@ var findDuplicate = function(nums) {
 
 var nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,5];
 console.log(findDuplicate(nums));
+*/'''
 
-/* PYTHON 3 SOLUTION:
+#PYTHON 3 SOLUTION:
 class Solution:
-    def findDuplicate(self, nums: List[int]) -> int:
+    def findDuplicate(self, nums):
                 
         slow = nums[0]
         fast = nums[0]
@@ -44,4 +46,9 @@ class Solution:
             fast = nums[fast]
             
         return slow;
-*/
+
+nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,5];
+X = Solution()
+print(X.findDuplicate(nums))
+
+// Works!

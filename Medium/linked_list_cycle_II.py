@@ -36,3 +36,5 @@ headnode.next.next.next = (ListNode(3))
 
 s = Solution()
 print(s.detectCycle(headnode))
+
+# Works!

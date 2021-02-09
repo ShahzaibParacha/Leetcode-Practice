@@ -6,3 +6,7 @@ class Solution:
             if i not in map:
                 out += i
         return out
+    
+S ='hello'
+X = Solution()
+print(X.removeVowels(S))
